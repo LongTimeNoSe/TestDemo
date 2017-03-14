@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string name="design_model">设计模式</string>
+    <string name="observer_model">观察者模式</string>
+    <string name="strategy_model">策略模式</string>
+    <string name="proxy_model">代理模式</string>
+    <string name="factory_model">工厂模式</string>
+    <string name="RecyclerView">RecyclerView</string>
+    <string name="custom_view">自定义控件</string>
+    <string name="mvp">MVP模式</string>
+    <string name="data_binding">DataBinding</string>
+    <string name="login">登录</string>
+    <string name="weather">天气</string>
+    <string name="MaterialDesign">MaterialDesign</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

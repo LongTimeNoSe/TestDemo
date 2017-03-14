@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/bt_design_model"
+            style="@style/buttonStyle"
+            android:text="@string/design_model"/>
+
+        <Button
+            android:id="@+id/bt_recyclerView"
+            style="@style/buttonStyle"
+            android:text="@string/RecyclerView"/>
+
+        <Button
+            android:id="@+id/bt_custom_View"
+            style="@style/buttonStyle"
+            android:text="@string/custom_view"/>
+
+        <Button
+            android:id="@+id/bt_mvp"
+            style="@style/buttonStyle"
+            android:text="@string/mvp"/>
+
+        <Button
+            android:id="@+id/bt_data_binding"
+            style="@style/buttonStyle"
+            android:text="@string/data_binding"/>
+
+        <Button
+            android:id="@+id/bt_tab_layout"
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/MaterialDesign"/>
+
+
+
+</LinearLayout>
