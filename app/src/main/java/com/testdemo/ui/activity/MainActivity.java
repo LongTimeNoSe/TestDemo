@@ -36,14 +36,14 @@ public class MainActivity extends BaseActivity {
         setTab(mTab);
     }
 
-    @OnClick({R.id.bt_design_model, R.id.bt_recyclerView, R.id.bt_custom_View, R.id.bt_mvp, R.id.bt_data_binding, R.id.bt_tab_layout})
+    @OnClick({R.id.bt_design_model, R.id.bt_recyclerView, R.id.bt_custom_View, R.id.bt_mvp, R.id.bt_data_binding, R.id.bt_tab_layout, R.id.bt_activity_life_cycle})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.bt_design_model:
                 startActivity(DesignModelActivity.class);
                 break;
             case R.id.bt_recyclerView:
-                startActivity(RecyclerViewActivity.class);
+                startActivity(RecyclerViewTwoActivity.class);
                 break;
             case R.id.bt_custom_View:
                 startActivity(CustomViewActivity.class);
@@ -56,6 +56,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.bt_tab_layout:
                 startActivity(TabLayoutActivity.class);
+                break;
+            case R.id.bt_activity_life_cycle:
+                startActivity(ActivityLifeCycleActivity.class);
                 break;
         }
     }

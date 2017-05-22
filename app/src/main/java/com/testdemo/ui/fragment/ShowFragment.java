@@ -1,5 +1,6 @@
 package com.testdemo.ui.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CoordinatorLayout;
@@ -13,6 +14,8 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.testdemo.R;
+import com.testdemo.ui.activity.LikeWYMusicActivity;
+import com.testdemo.ui.activity.ToolBarActivity;
 import com.testdemo.utils.PromptUtil;
 
 import java.util.ArrayList;
@@ -59,7 +62,15 @@ public class ShowFragment extends Fragment {
 
         switch (type) {
             case "first":
-                mShow.setText(type);
+                mShow.setText("仿网易云音乐歌单详情");
+                mShow.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+//                        startActivity(new Intent(getActivity(), LikeWYMusicActivity.class));
+                        startActivity(new Intent(getActivity(), ToolBarActivity.class));
+                    }
+                });
+
                 break;
             case "second":
                 mShow.setText(type);

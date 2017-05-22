@@ -38,4 +38,11 @@
         style="@style/buttonStyle"
         android:text="@string/MaterialDesign"/>
 
+    <Button
+        android:id="@+id/bt_activity_life_cycle"
+        style="@style/buttonStyle"
+        android:text="@string/activity_life_cycle"/>
+
+    
+
 </LinearLayout>

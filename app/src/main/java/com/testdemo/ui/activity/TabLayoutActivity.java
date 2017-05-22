@@ -47,7 +47,7 @@ public class TabLayoutActivity extends AppCompatActivity implements NavigationVi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_layout);
         ButterKnife.bind(this);
-//        StatusBarUtil.setColorNoTranslucentForDrawerLayout(this, mActivityTabLayout, getResources().getColor(R.color.colorPrimary));
+        StatusBarUtil.setColorForDrawerLayout(this, mActivityTabLayout, getResources().getColor(R.color.colorPrimary));
 //        StatusBarUtil.setTranslucentForDrawerLayout(this, mActivityTabLayout);
         setSupportActionBar(mToolbar);
         //设置标题  默认显示项目名称

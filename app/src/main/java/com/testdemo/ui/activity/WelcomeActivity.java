@@ -12,9 +12,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.testdemo.R;
-import com.testdemo.ui.base.BaseActivity;
-import com.testdemo.utils.PromptUtil;
-import com.testdemo.utils.StatusBarUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -101,6 +98,7 @@ public class WelcomeActivity extends AppCompatActivity {
                             @Override
                             public void onAnimationEnd(Animation animation) {
                                 startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+//                                startActivity(new Intent(WelcomeActivity.this, RecyclerViewTwoActivity.class));
                                 WelcomeActivity.this.finish();
                             }
 
